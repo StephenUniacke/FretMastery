@@ -11,28 +11,28 @@
       background-color: #fafafa;
     }
 
-    .stackedit__html {
-      max-width: 95vw;
+    .content-container {
+      max-width: 1199px; /* Limiting the content width */
       margin: auto;
       text-align: center;
     }
 
-    .stackedit__html h1,
-    .stackedit__html h2,
-    .stackedit__html p {
+    .content-container h1,
+    .content-container h2,
+    .content-container p {
       text-align: center;
     }
 
     .instruction-image {
-      width: 100%;
+      width: 100%; /* 110% of the original image width */
       max-width: 1199px;
       display: block;
       margin: 0 auto 40px auto;
     }
 
     hr {
-      width: 100%; /* Limit width to match image width */
-      max-width: 1199px;
+      width: 100%;
+      max-width: 1199px; /* Ensure the hr matches the content width */
       margin: 20px auto;
       border: 1px solid #ccc;
     }
@@ -41,6 +41,7 @@
       .instruction-image {
         width: 100%;
       }
+
       hr {
         width: 100%;
       }
@@ -49,7 +50,7 @@
 </head>
 
 <body class="stackedit">
-  <div class="stackedit__html">
+  <div class="content-container">
 
     <h1>Fret Mastery – App Instructions</h1>
 
