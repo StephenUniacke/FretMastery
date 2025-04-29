@@ -24,14 +24,24 @@
     }
 
     .instruction-image {
-      width: 110%;
-      max-width: 1319px;
+      width: 100%;
+      max-width: 1199px;
       display: block;
       margin: 0 auto 40px auto;
     }
 
+    hr {
+      width: 100%; /* Limit width to match image width */
+      max-width: 1199px;
+      margin: 20px auto;
+      border: 1px solid #ccc;
+    }
+
     @media (max-width: 768px) {
       .instruction-image {
+        width: 100%;
+      }
+      hr {
         width: 100%;
       }
     }
@@ -51,6 +61,7 @@
     <img src="instructions 2.jpg" alt="Instructions Part 2" class="instruction-image">
 
     <hr>
+
     <p>If you need further help, feel free to contact us at <a href="mailto:fretmasterysupport@gmail.com">fretmasterysupport@gmail.com</a></p>
 
   </div>
